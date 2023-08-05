@@ -1,0 +1,183 @@
+body {
+  background-color: #171717;
+  margin: 0;
+}
+
+.Headings {
+  color: #EDEDED;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 5rem;
+  font-weight: normal;
+  margin: 0 auto 5rem auto;
+  position: relative;
+  top: 2rem;
+  text-shadow: 0 0 3px black, 0 2px 0 black, 2px 0 0 black;
+  text-align: center;
+}
+
+.subHeadings {
+  color: #EDEDED;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.3vw;
+  font-weight: normal;
+  margin: 0rem auto 0rem auto;
+  position: relative;
+  text-shadow: 0 0 3px black, 0 2px 0 black, 2px 0 0 black;
+}
+
+
+.top {
+  position: relative;
+  height: 152px;
+  display: flex;
+  justify-content: center;
+}
+
+.top2 {
+  position: relative;
+  height: 18rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hypeR {
+  bottom: 0;
+  position: absolute;
+  right: 10%;
+}
+
+.hypeL {
+  bottom: 0;
+  position: absolute;
+  left: 10%;
+  transform: scaleX(-1);
+}
+
+.mainpage {
+  background-color: #3E065F;
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.myButton {
+  background-color: #9b52b8;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #EDEDED;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  padding: 20px 38px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ded17c;
+  transition: all .3s;
+}
+
+.form {
+  background-color: #700B97;
+  border-radius: 10px;
+  display: inline-block;
+  color: #EDEDED;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  padding: 20px 38px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ded17c;
+  text-align: center;
+}
+
+
+.resultpage {
+  padding: 100px 1000px;
+}
+
+.manifesto_paragraph {
+  background-color: #dfd5e3;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width:35rem;
+  height:20rem;
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+
+.paragraphs {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size:  .8vw;
+  font-weight: normal;
+  position: relative;
+  margin: 0 auto .5rem auto;
+}
+
+.myButton:hover {
+  background-color: #EDEDED;
+  color: #700B97;
+  transform: scale(1.1);
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton1{
+  margin-top: 0;
+  width: 324px;
+  text-align: center;
+}
+.mybutton2{
+  margin-bottom: 0;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .mainpage{
+    flex-direction: column;
+  }
+  .myButton1{
+    margin-top: 20px;
+  }
+  .mybutton2{
+    margin-bottom: 40px;
+  }
+
+  .myButton {
+    font-size: 30px;
+    padding: 11px 24px;
+    width: auto;
+  }
+
+}
+
+.dots {
+  margin: 300px auto;
+  width: 5%;
+  border: dotted 20px;
+  border-color: #845460;
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.mediaicon{
+  width: 8rem;
+  margin: 10px 6rem;
+}
+
+::-webkit-scrollbar {
+  width: .7rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #252626;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bc96de;
+  border-radius: 10px;
+}
