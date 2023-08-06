@@ -43,6 +43,8 @@ def get_phonemes(word, rhyme_dict):
     '''
     if word == '':
         return["Results..."]
+    elif word not in rhyme_dict.keys():
+        return["Word not recognized"]
     stress_i = []
     # The for loop below checks if the elemnt in the list
     # is a primary stress phoneme by checkign the last character 
@@ -69,6 +71,8 @@ def get_rhyming_words(word, rhyme_dict, stress_i):
     '''
     if word == '':
         return ["Results..."]
+    elif word not in rhyme_dict.keys():
+        return["Word not recognized"]
     rhyming_words = []
     i = 0
     # The outer loop goes through the different pronunciations
