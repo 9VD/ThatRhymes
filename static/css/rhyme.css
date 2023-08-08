@@ -15,16 +15,6 @@ body {
   text-align: center;
 }
 
-.subHeadings {
-  color: #EDEDED;
-  font-family: 'Lato', sans-serif;
-  font-size: 2.3vw;
-  font-weight: normal;
-  margin: 0rem auto 0rem auto;
-  position: relative;
-  text-shadow: 0 0 3px black, 0 2px 0 black, 2px 0 0 black;
-}
-
 
 .top {
   position: relative;
@@ -135,15 +125,6 @@ body {
     width: auto;
   }
 
-}
-
-.dots {
-  margin: 300px auto;
-  width: 5%;
-  border: dotted 20px;
-  border-color: #845460;
-  border-bottom: none;
-  background-color: transparent;
 }
 
 .mediaicon{
